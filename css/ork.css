@@ -1,0 +1,43 @@
+body{
+    background-color:#f7f7f7;
+}
+
+#bigBall {
+    height:500px;
+    width:500px;
+    border-radius:50%;
+    position:relative;
+    margin:50px auto 0;
+    background: #ffebd1; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ffebd1 0%, #f9d8ae 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffebd1), color-stop(100%,#f9d8ae)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ffebd1 0%,#f9d8ae 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ffebd1 0%,#f9d8ae 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ffebd1 0%,#f9d8ae 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ffebd1 0%,#f9d8ae 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffebd1', endColorstr='#f9d8ae',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    
+}
+#ballContainer {
+    position:absolute;
+    top: 70px;
+    left:0px;
+    padding:0 75px;
+    width: 500px;
+    /* background:#eee; */
+}
+#ballHeader h1{
+    float:left;
+    font-size: 54px;
+}
+#avatar {
+    float:left;
+    background:#fff;
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin-right: 10px;
+}
+#ballContent {
+}
